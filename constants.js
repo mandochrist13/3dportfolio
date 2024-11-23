@@ -1,14 +1,13 @@
 export const METADATA = {
-  author: "Shubh Porwal",
-  title: "Portfolio | Shubh Porwal",
+  author: "MANDO Hamidou Christ-Of-Fair",
+  title: "Portfolio | MANDO Christ-Of-Fair",
   description:
-    "Shubh Porwal is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
-  siteUrl: "https://www.shubhporwal.me/",
-  twitterHandle: "@shubhporwal24",
+    "MANDO Hamidou Christ-Of-Fair est un Dévelopeur FrontEnd et un UI/UX designer passioné. Et fraichement diplômé de l'école 241.",
+  // siteUrl: "https://www.shubhporwal.me/",
   keywords: [
-    "Shubh Porwal",
+    "MANDO Hamidou Christ-Of-Fair",
     "Frontend Engineer",
-    "React Native Developer",
+    "Next js Developer",
     "Software Engineer",
     "Portfolio",
     "Devfolio",
@@ -16,21 +15,21 @@ export const METADATA = {
   ].join(", "),
   image:
     "https://res.cloudinary.com/dywdhyojt/image/upload/v1721378510/social-preview.png",
-  language: "English",
+  language: "French",
   themeColor: "#000000",
 };
 
 export const MENULINKS = [
   {
-    name: "Home",
+    name: "Accueil",
     ref: "home",
   },
   {
-    name: "Skills",
+    name: "Compétences",
     ref: "skills",
   },
   {
-    name: "Projects",
+    name: "Projets",
     ref: "projects",
   },
   {
@@ -44,31 +43,23 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
-  "I build things for the web",
-  "I create aesthetic and modern apps",
+  
+  "Un développeur Frontend Pragmatique",
+  "Je conçois des applications esthétiques et modernes",
 ];
 
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: shubhporwal73@gmail.com",
+    url: "mailto: mandochrist13@gmail.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/christ-of-fair-mando-6610b02a5/",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
-  },
-  {
-    name: "instagram",
-    url: "https://www.instagram.com/shubhii73/",
-  },
-  {
-    name: "twitter",
-    url: "https://x.com/shubhporwal24",
+    url: "https://github.com/mandochrist13",
   },
 ];
 
@@ -78,63 +69,63 @@ export const SKILLS = {
     "css",
     "javascript",
     "typescript",
-    "sass",
+    // "sass",
     "nodejs",
-    "webpack",
+    // "webpack",
     "vite",
     "firebase",
     "figma",
-    "tanstack-query",
+    // "tanstack-query",
   ],
   librariesAndFrameworks: [
     "react",
-    "redux",
+    // "redux",
     "nextjs",
     "tailwindcss",
-    "styledcomponents",
+    // "styledcomponents",
     "antdesign",
-    "chakra-ui",
+    // "chakra-ui",
   ],
-  databases: ["mysql", "mongodb"],
-  other: ["git", "sanity-io"],
+  databases: ["mysql"],
+  other: ["git"],
 };
 
 export const PROJECTS = [
   {
-    name: "Airbnb",
-    image: "/projects/airbnb.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
-    description: "Airbnb UI clone using NextJS + Tailwind CSS 🛏️",
-    gradient: ["#F14658", "#DC2537"],
-    url: "https://shubh73-airbnb.vercel.app/",
+    name: "Phyto Science Gabon",
+    image: "/projects/phyto.PNG",
+    blurImage: "/projects/phyto.PNG",
+    description: "Phyto Science est une entreprise mondiale de santé et de bien-être",
+    gradient: ["#377a00", "#adc476"],
+    url: "https://phytoscience.vercel.app/",
     tech: ["react", "nextjs", "tailwindcss", "mapbox"],
   },
   {
-    name: "Medium",
-    image: "/projects/medium.webp",
-    blurImage: "/projects/blur/medium-blur.webp",
-    description: "Medium UI clone using NextJS + Tailwind CSS ✍🏻",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://shubh73-medium.vercel.app/",
+    name: "Suncomcocotier",
+    image: "/projects/suncom.PNG",
+    blurImage: "/projects/suncom.PNG",
+    description: "SUNCOM COCOTIERS est une PME de droit gabonais dont l’offre de services s’articule à la vente des solutions et des produits aux particuliers et aux Entreprises.",
+    gradient: ["#732657", "#d44a91"],
+    url: "https://suncomcocotiers.com/fr/",
     tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
   },
   {
-    name: "Inshorts",
-    image: "/projects/inshorts.webp",
-    blurImage: "/projects/blur/airbnb-blur.webp",
+    name: "Saveurs Bantu",
+    image: "/projects/bantu.PNG",
+    blurImage: "/projects/bantu.PNG",
     description:
-      "Conversational Voice Controlled React News Application using Alan AI 🎙",
-    gradient: ["#000066", "#6699FF"],
-    url: "https://shubh73-inshorts.netlify.app/",
+      "Saveurs Bantu est né du désir de partager l`authentique cuisine gabonaise avec le monde.",
+    gradient: ["#facc14", "#fff18a"],
+    url: "https://restaurant-flax-three.vercel.app/",
     tech: ["react", "chakra-ui", "alan"],
   },
   {
-    name: "Tesla",
-    image: "/projects/tesla.webp",
-    blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Tesla React Native App 🏎️",
-    gradient: ["#142D46", "#2E4964"],
-    url: "https://github.com/shubh73/tesla",
+    name: "Desty Shop",
+    image: "/projects/desty.PNG",
+    blurImage: "/projects/desty.PNG",
+    description: "Boutique en ligne où la mode et les tendances se rencontrent",
+    gradient: ["#dbae97", "#dbae97"],
+    url: "https://destyshop.fr/",
     tech: ["react"],
   },
 ];

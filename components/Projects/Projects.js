@@ -93,14 +93,13 @@ const Projects = ({ isDesktop, clientHeight }) => {
           ref={sectionTitleRef}
         >
           <p className="uppercase tracking-widest text-gray-light-1 staggered-reveal">
-            PROJECTS
+            PROJETS
           </p>
           <h1 className="text-6xl mt-2 font-medium text-gradient w-fit staggered-reveal">
-            My Projects
+            Mes Projets
           </h1>
           <h2 className="text-[1.65rem] font-medium md:max-w-lg max-w-sm mt-2 staggered-reveal">
-            Some things I&apos;ve built with love, expertise and a pinch of
-            magical ingredients.{" "}
+            Quelques réalisations conçues avec amour, expertise et une pincée d'ingrédients magiques.{" "}
           </h2>
         </div>
         <div

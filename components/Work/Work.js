@@ -11,7 +11,7 @@ const Work = ({ isDesktop }) => {
   const tabItems = useMemo(
     () => [
       {
-        title: "Dukaan",
+        title: "Irt Engineering",
         value: "dukaan",
         content: (
           <StickyScroll
@@ -21,7 +21,7 @@ const Work = ({ isDesktop }) => {
         ),
       },
       {
-        title: "Aviate",
+        title: "Digitech Africa",
         value: "Aviate",
         content: (
           <StickyScroll
@@ -31,7 +31,7 @@ const Work = ({ isDesktop }) => {
         ),
       },
       {
-        title: "Spacenos",
+        title: "Ogooué labs",
         value: "spacenos",
         content: (
           <StickyScroll
@@ -84,13 +84,13 @@ const Work = ({ isDesktop }) => {
         <div className="flex flex-col work-wrapper">
           <div className="flex flex-col">
             <p className="uppercase tracking-widest text-gray-light-1 staggered-reveal">
-              WORK
+              EMPLOIE
             </p>
             <h1 className="text-6xl mt-2 font-medium text-gradient w-fit staggered-reveal">
               Experience
             </h1>
             <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-              A quick recap of where I&apos;ve worked.{" "}
+              Un rapide récapitulatif des lieux où j'ai travaillé.{" "}
             </h2>
           </div>
           <Tabs tabItems={tabItems} />

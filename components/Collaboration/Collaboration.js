@@ -64,7 +64,7 @@ const Collaboration = ({ clientHeight }) => {
         <p className="opacity-40 text-6xl sm:text-7xl font-semibold whitespace-nowrap ui-left transform-gpu">
           {Array(5)
             .fill(
-              " Software Engineering Problem Solving Software Architecture "
+              " Résolution de problèmes d'ingénierie logicielle Architecture logicielle web "
             )
             .reduce((str, el) => str.concat(el), "")}{" "}
         </p>
@@ -73,7 +73,7 @@ const Collaboration = ({ clientHeight }) => {
           ref={quoteRef}
           className="mt-6 md:mt-8 font-medium text-4xl md:text-5xl text-center"
         >
-          Interested in{" "}
+          Interesseé par la{" "}
           <span
             className="text-strong font-semibold"
             style={{
@@ -92,7 +92,7 @@ const Collaboration = ({ clientHeight }) => {
         <p className="mt-6 md:mt-8 opacity-40 text-6xl sm:text-7xl font-semibold whitespace-nowrap ui-right transform-gpu">
           {Array(5)
             .fill(
-              " Agile Development Frontend Development React Native Development "
+              " Developpement Agile Frontend Developpement "
             )
             .reduce((str, el) => str.concat(el), "")}{" "}
         </p>
