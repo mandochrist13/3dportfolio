@@ -54,7 +54,7 @@ const Skills = () => {
               Mes Compétences
             </h1>
             <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-              En ma qualité de développeur et de par mon expérience, je me permets d'attester que je suis capable de me servir des outils suivants:{" "}
+              En ma qualité de développeur et de par mon expérience, je me permets d&apos;attester que je suis capable de me servir des outils suivants:{" "}
             </h2>
           </div>
           <div className="mt-10">

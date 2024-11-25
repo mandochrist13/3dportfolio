@@ -1,5 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef } from "react";
 import gsap from "gsap";
+import Image from "next/image";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Tabs from "./Tabs/Tabs";
 import StickyScroll from "./StickyScroll/StickyScroll";
@@ -72,7 +73,7 @@ const Work = ({ isDesktop }) => {
       id={MENULINKS[3].ref}
       className="w-full relative select-none xs:mt-40 sm:mt-72 mb-96"
     >
-      <img
+      <Image
         src="/left-pattern.svg"
         className="absolute hidden left-0 -top-1/4 w-1/12 max-w-xs md:block"
         loading="lazy"
@@ -90,7 +91,7 @@ const Work = ({ isDesktop }) => {
               Experience
             </h1>
             <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-              Un rapide récapitulatif des lieux où j'ai travaillé.{" "}
+              Un rapide récapitulatif des lieux où j&apos;ai travaillé.{" "}
             </h2>
           </div>
           <Tabs tabItems={tabItems} />

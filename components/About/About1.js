@@ -56,7 +56,7 @@ const About1 = ({ clientHeight }) => {
           className="font-medium text-[2.70rem] md:text-6xl lg:text-[4rem] text-center"
         >
           <span className="about-1 leading-tight">
-          Je suis un ingénieur passionné qui se concentre sur la création d'applications évolutives et performantes.{" "}
+          Je suis un ingénieur passionné qui se concentre sur la création d&apos;applications évolutives et performantes.{" "}
           </span>
           <span className="about-2 leading-tight">
           J&apos;assume la responsabilité de créer une bonne expérience utilisateur en utilisant une architecture front-end moderne.{" "}
