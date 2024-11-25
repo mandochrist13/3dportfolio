@@ -85,6 +85,7 @@ const Hero = () => {
           <span className={`relative ${styles.emphasize} staggered-reveal`}>
             MANDO
           </span>
+
           <span className="staggered-reveal"> Hamidou Christ-Of-Fair</span>
         </h1>
         <p>
@@ -98,7 +99,7 @@ const Hero = () => {
         </div>
         <div className="staggered-reveal pt-4">
           <Button href={`#${MENULINKS[4].ref}`} classes="link" type="primary">
-            Me contacter
+            Télécharger mon CV
           </Button>
         </div>
       </div>
