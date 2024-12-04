@@ -178,90 +178,90 @@ export const PROJECTS = [
 export const WORK_CONTENTS = {
   DUKAAN: [
     {
-      title: "Dukaan",
+      title: "Irt-Shop",
       description:
-        "Dukaan is a platform that enables businesses to launch their online stores at ease.",
+        "Irt-Shop est une platforme d'e-commerce de produit tech.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Revolutionizing commerce, one click at a time
+          Révolutionner le commerce, un clic à la fois.
         </div>
       ),
     },
     {
-      title: "Transformation",
+      title: "Transformation et Création de la Plateforme",
       description:
-        "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
+        "En 2023, j’ai conçu et développé Irt-Shop, une plateforme d'e-commerce dédiée aux produits technologiques, en utilisant un CMS performant. Mon rôle comprenait l’analyse des besoins spécifiques de la structure, la personnalisation du CMS pour répondre aux exigences du marché local et l’intégration de fonctionnalités essentielles :Gestion des produits et des stocks. Paiement en ligne sécurisé via des passerelles adaptées. Interface utilisateur intuitive, optimisée pour l’expérience client (UX/UI).",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
+          Développeur CMS Prestashop
         </div>
       ),
     },
     {
-      title: "Evolution",
+      title: "Évolution et Optimisation",
       description:
-        "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
+        "Après le lancement initial, j’ai supervisé les optimisations nécessaires pour améliorer les performances de la plateforme et augmenter l'engagement des utilisateurs. Ces améliorations incluaient : La réduction des temps de chargement des pages grâce à une configuration optimisée. L’ajout d’outils analytiques pour suivre et ajuster les performances en fonction des comportements des utilisateurs. La mise en place d’un design adaptatif pour garantir une navigation fluide sur mobile et tablette.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
+          Développeur CMS junior
         </div>
       ),
     },
     {
-      title: "Optimization",
+      title: "Résultats",
       description:
-        "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
+        "Grâce à ce projet, Irt-Shop s’est rapidement imposé comme un acteur clé du commerce en ligne technologique au Gabon. La plateforme a permis : Une augmentation significative des ventes en ligne. Une visibilité accrue pour la marque grâce à une expérience utilisateur moderne et engageante. Une gestion simplifiée pour l’équipe de l’entreprise grâce aux fonctionnalités avancées du CMS.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer Intern
+          Développeur Front-End CMS
         </div>
       ),
     },
   ],
   AVIATE: [
     {
-      title: "Aviate",
+      title: "Fourniture en Ligne",
       description:
-        "Aviate is a preparation and mentorship platform for job-seekers that are seeking non-technical roles across top companies",
+        "Fourniture en Ligne est une plateforme intuitive qui connecte les parents et les établissements scolaires pour simplifier l'achat de fournitures. Grâce à une interface claire et ergonomique, les utilisateurs peuvent facilement rechercher, sélectionner et commander les produits nécessaires pour leurs enfants ou leurs besoins professionnels.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Finding the right job isn&apos;t fate, it&apos;s navigation
+          Facilitez vos achats de fournitures scolaires et bureautiques en quelques clics.
         </div>
       ),
     },
     {
       title: "Innovation",
       description:
-        "I spearheaded the development of Q-Rate, their flagship product, a voice-based applicant screening platform. Moreover, I took initiatives to enhance user engagement and drive substantial increases in daily traffic. Additionally, I implemented an error-logging and bug reporting system, significantly diminishing user-reported bugs.",
+        "J’ai participé à la conception des interfaces phares de Fourniture en Ligne. Je me suis accentué sur l'expérience et l'inteface utilisateur et j'ai participé à l'intégration grâce au framework NEXT JS.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Developer Intern
+          Frontend Developper NEXT JS
         </div>
       ),
     },
   ],
-  SPACENOS: [
-    {
-      title: "Spacenos",
-      description:
-        "A dynamic startup dedicated to creating innovative products that make the world a better place.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          We build apps that solve problems for the next billion people
-        </div>
-      ),
-    },
-    {
-      title: "Trailblazing",
-      description:
-        "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Web Developer Intern
-        </div>
-      ),
-    },
-  ],
+  // SPACENOS: [
+  //   {
+  //     title: "Spacenos",
+  //     description:
+  //       "A dynamic startup dedicated to creating innovative products that make the world a better place.",
+  //     content: (
+  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
+  //         We build apps that solve problems for the next billion people
+  //       </div>
+  //     ),
+  //   },
+  //   {
+  //     title: "Trailblazing",
+  //     description:
+  //       "I led the comprehensive overhaul of the Admin Portal, implementing CRUD features for all services and providers. Additionally, I architected a feature enabling precise customer location tracking and delivering insightful usage statistics. Through optimized and compressed file serving, I catalyzed a remarkable Yx increase in page speed, resulting in a X% boost in customer retention.",
+  //     content: (
+  //       <div className="h-full w-full flex items-center justify-center text-white px-4">
+  //         Web Developer Intern
+  //       </div>
+  //     ),
+  //   },
+  // ],
 };
 
 export const GTAG = "G-5HCTL2TJ5W";
